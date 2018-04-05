@@ -10,7 +10,6 @@ $.each(data, function(key, value) {
      })
    })
 
-
 var table = document.getElementById("traintable");
 
 var tr = document.createElement("tr");
@@ -73,7 +72,7 @@ var trainFrequency = 0;
 //   var trainNameEdit = $(this).attr("data-name");
 //   var query = dataRef.ref().orderByChild('trainName').equalTo(trainNameEdit);
 
-//   //Assign attribute for 'update button' in the form for future reference 
+//   //Assign attribute for 'update button' in the form for future reference
 //   $("#update").attr("data-name", trainNameEdit);
 
 //   // Retrieve corresponding value from database and display on form to edit.
